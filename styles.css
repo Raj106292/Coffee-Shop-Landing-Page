@@ -48,6 +48,30 @@ header{
     padding: 1rem 0;
 }
 
+.toggleMenu{
+    display: none;
+}
+
+nav{
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+nav ul{
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul a{
+    position: relative;
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    padding: 0.4rem 1rem;
+}
 /* responsiveness */
 @media (min-width: 1350px){
     .container{
